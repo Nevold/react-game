@@ -1,0 +1,86 @@
+.square-wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 0;
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-top: 30px;
+  color: red;
+}
+.status {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+  text-shadow: 4px 4px 5px #aaaaaa;
+}
+
+.boards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.infoOff {
+  opacity: 0;
+  transition: 1s;
+}
+
+.infoOn {
+  opacity: 1;
+  transition: 1s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-top: 85px;
+}
+
+.gameInfo {
+  width: 180px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colorInfo {
+  width: 170px;
+  margin-right: 10px;
+}
+
+.setting,
+.settingColor {
+  margin-top: 30px;
+}
+
+.setImg,
+.setPalette {
+  width: 30px;
+}
+.setImg:hover,
+.setPalette:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.settingWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.step {
+  list-style-type: none;
+  margin-top: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
+  padding: 2px;
+}
+.listStep {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.step:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 5px #aaaaaa;
+}
